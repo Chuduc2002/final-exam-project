@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony 4 men</title>
+    <link rel="icon" type="image/x-icon" href="img/logo/icon 2.png">
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src = "bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+</head>
+<body>
+  <!-- HEADER ---------------------------------------------- -->
+  <!-- for the big screen lv1 -->
+  <div class="header-big-screen d-none d-lg-block ">
+    <!-- top-bar lv2 -->
+    <div class="top-bar bg-light ">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <i class="fa-solid fa-phone"></i><span>  0926949615</span>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+              <div class="col-3">
+                <i class="fa-solid fa-user"></i>
+                <a href="google.com">Tài khoản</a>
+              </div>
+              <div class="col-3">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="google.com">Giỏ hàng(0)</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- home-link lv2-->
+    <div class="home-link my-3 ">
+      <div class="container">
+        <div class="row">
+          <!-- logo lv3 -->
+          <div class="col-2 align-self-center">
+            <a href="#">
+              <img src="img/logo/brand.png" alt="">
+            </a>
+          </div>
+          <!-- bar-navigation lv3 -->
+          <div class="col-7 align-self-center" >
+            <div class="container-fluid ">
+              <div class="row justify-content-center ">
+                <div class="col ">
+                  <div class="dropdown">
+                    <button class="dropbtn">QUẦN NAM</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="dropdown ">
+                    <button class="dropbtn ">ÁO NAM</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="dropdown">
+                    <button class="dropbtn">PHỤ KIỆN</button>
+                    <div class="dropdown-content">
+                      <a href="#">Link 1</a>
+                      <a href="#">Link 2</a>
+                      <a href="#">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <a href="#">ALBUM</a>
+                </div>
+                <div class="col">
+                  <a href="#">TIN TỨC</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- search-box lv3-->
+          <div class="col-3 search align-self-center ">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Bạn muốn tìm gì?" aria-label="Search">
+              <button class="btn btn-outline-dark"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- for smartphone screen lv1 -->
+   <div class="header-small-screen">
+   </div>
+  <!-- ---------------------------------------------------------  -->
+
+
+  <!-- CAROLSEL---------------------------------------------- -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="img/logo/Cover_facebook.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="img/logo/Cover_web.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ---------------------------------------------------------  -->
+
+
+
+  <!-- SHIPPING METHODS--------------------------------------- -->
+  <div class="shipping d-none d-md-block my-5">
+    <div class="container">
+      <div class="row">
+        <!-- shipping-methods-card -->
+        <div class="card col-4" >
+          <img src="img/logo/Doi_tra.png" class="card-img-top " alt="...">
+          <div class="card-body text-center">
+            <p class="card-text">Đổi trả trong vòng 7 ngày</p>
+            <button type="button" class="btn btn-outline-dark">
+              <a href="" style="text-decoration: none;">Xem chi tiết</a>
+            </button>
+          </div>
+        </div>
+        <!-- shipping-methods-card -->
+        <div class="card col-4" >
+          <img src="img/logo/Thanh_toan.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <p class="card-text">Kiểm tra hàng trước khi thanh toán</p>
+            <button type="button" class="btn btn-outline-dark">
+              <a href="" style="text-decoration: none;">Xem chi tiết</a>
+            </button>
+          </div>
+        </div>
+        <!-- shipping-methods-card -->
+        <div class="card col-4" >
+          <img src="img/logo/Ship.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <p class="card-text">Hỗ trợ ship cho đơn hàng từ 500k</p>
+            <button type="button" class="btn btn-outline-dark ">
+              <a href="" style="text-decoration: none;">Xem chi tiết</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+        
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------  -->
+
+
+
+  <!--NEW-PRODUCTS------------------------------------------------->
+<div class="new-product my-5">
+  <div class="container">
+    <!-- new-product-title lv1 -->
+    <div class="card-title">
+      <h2><a href="#">SẢN PHẨM MỚI</a></h2>
+    </div>
+    <!-- new-product- lv1 -->
+    <div class="row">
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+      <!-- product-card -->
+      <div class="product-card col-lg-3 col-6 text-center my-3">
+        <figure class="figure">
+          <a href=""><img src="img/product/mens-shirt/SM2091__14_.jpg" class="figure-img img-fluid rounded" alt="..."></a>
+          <figcaption class="figure-caption">Sơ Mi Krik Slimfit 2091.</figcaption>
+        </figure>
+        <div class="product-card-content"><p><a href="">350,000VND</a></p></div>
+        <div class="product-card-footer d-none d-sm-block container">
+          <div class="row">
+            <button type="button" class="btn btn-outline-success col-6 d-none">Mua ngay</button>
+          <button type="button" class="btn btn-outline-success col-6 d-none">Xem chi tiết</button>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      
+
+    </div>
+  </div>
+</div>
+  <!-- ----------------------------------------------------------- -->
+<!-- img-store -->
+<div class="img-store my-5">
+  <img src="img/logo/footer-img.png" class="img-fluid" alt="...">
+</div>
+<!-- ------------------------------------------------------------- -->
+
+<!-- feedback ------------------------------------------------------->
+<div class="feedback">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-12">
+        <h6 style="margin-bottom: 5px;">GỌI MUA HÀNG(8:30-22:30)</h6>
+        <p><i class="fa-solid fa-phone" ></i> 0989099888</p>
+        <span style="font-size:large">Tất cả các ngày trong tuần</span>
+      </div>
+      <div class="col-lg-3 col-sm-12">
+        <h6 style="margin-bottom: 5px;">GỌI MUA HÀNG(8:30-22:30)</h6>
+        <p><i class="fa-solid fa-phone" ></i> 0989099888</p>
+        <span style="font-size:large">Tất cả các ngày trong tuần</span>
+      </div>
+
+      <div class="col-lg-3 col-sm-12">
+        <h6 style="margin-bottom: 5px;">ĐĂNG KÝ NHẬN THÔNG TIN MỚI</h6>
+        <form >
+          <input class="form-control me-2" type="email" placeholder="Nhập email của bạn" aria-label="đăng ký">
+          <button >Đăng ký</button>
+        </form>
+      </div>
+      <div class="col-lg-3 col-sm-12">
+        <h6 style="margin-bottom: 5px;">THEO DÕI CHÚNG TÔI</h6>
+        <div class="col-12">
+          <a href=""><i class="fa-brands fa-facebook Social-Network"></i></a>
+          <a href=""><i class="fa-brands fa-instagram-square Social-Network"></i></a>
+          <a href=""><i class="fa-solid fa-bag-shopping Social-Network"></i></a>
+          <a href=""><i class="fa-brands fa-twitter Social-Network"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------------------------------------------------------------- -->
+<!-- footer--------------------------------------------------------- -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- col3 -->
+      <div class="col-sm-3">
+        <div class="footer-title">
+          <h6>CHÍNH SÁCH VÀ QUY ĐỊNH</h6>
+        </div>
+        <div class="footer-content">
+          <ul>
+            <li> <a href="">Cách thức đặt hàng</a></li>
+            <li> <a href="">Chính sách thành viên</a></li>
+            <li> <a href="">Chính sách giao hàng</a></li>
+            <li> <a href="">Quy định đổi trả</a></li>
+            <li> <a href="">Hình thức thanh toán</a></li>
+            <li> <a href="">Chính sách bảo mật</a></li>
+            <li> <a href="">Chính sách xử lý khiếu nại</a></li>
+            <li> <a href="">Chính sách kiểm hàng</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--  -->
+      <!-- col3 -->
+      <div class="col-sm-3">
+        <div class="footer-title">
+          <h6>HỆ THỐNG CỬA HÀNG</h6>
+        </div>
+        <div class="footer-content">
+          <ul>
+            <li>
+              <i class="fa-solid fa-map-location"></i>
+              <a href="" >344 Cầu Giấy</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-map-location"></i>
+              <a href="" >23 Chùa Bộc, Đống Đa</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-map-location"></i>
+              <a href="" >209 Bạch Mai</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-map-location"></i>
+              <a href="" >183 Trần Cung</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--  -->
+      <!-- col3 -->
+      <div class="col-sm-3">
+        <div class="footer-title">
+          <h6>VỀ CHÚNG TÔI</h6>
+        </div>
+        <div class="footer-content">
+          <p><strong >Công ty TNHH TIMEMAN</strong></p>
+          
+          <strong>Địa chỉ:</strong>
+          <span> Số 344 Cầu Giấy, Phường Dịch Vọng, Quận Cầu Giấy, Thành phố Hà Nội</span><br>
+          <strong>Mã số doanh nghiệp:</strong>
+          <span> 0108901419 do Sở kế hoạch và đầu tư thành phố Hà Nội cấp ngày 17/09/2019</span><br>
+          <strong>Điện thoại:</strong>
+          <span>0982.022.969</span>
+          <strong>Email:</strong><span>timeman.vn@gmail.com</span>
+        </div>
+      </div>
+      <!--  -->
+      <!-- col3 -->
+      <div class="col-sm-3">
+        <div class="footer-title">
+          <h6>FANPAGE CHÚNG TÔI</h6>
+        </div>
+        <div class="footer-content">
+        </div>
+      </div>
+      <!--  -->
+      
+    </div>
+  </div>
+</div>
+<!-- ---------------------------------------------------------------- -->
+
+
+<button type="button" class="close" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+<div style="height: 500px;"></div>
+<script src="js/javascrip.js"></script>
+</body>
+</html>
